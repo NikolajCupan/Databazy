@@ -155,7 +155,7 @@ select *
   
 -- dedicnost
 -- t_ebook je potomkom t_kniha
--- objekt je defaultne final => nemoze mat potomkom
+-- objekt je defaultne final => nemoze mat potomkov
    -- musim explicitne zadefinovat, ze objekt moze mat potomkov
 -- zmenim t_kniha na not final
 alter type t_kniha 
